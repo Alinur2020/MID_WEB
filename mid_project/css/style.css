@@ -1,0 +1,109 @@
+.block {
+
+	background-image: url(../img/batman.png);
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 25px;
+
+
+}
+
+
+.first{
+  transition-duration:0.6s;
+  background-color:rgb(106,90,205);
+  font-size:15px;
+  color:white;
+  padding:10px;
+  border-radius:10px;
+  border: 2px solid rgb(106,90,205);
+  box-shadow: 5px 5px 5px rgb(72,61,139);
+  font-family:cursive;
+}
+.first:hover{
+  background-color: white; 
+  color:green;
+}
+.first:active{
+  transform:translateY(15px)
+}
+.second{
+  transition-duration:0.6s;
+  background-color:rgb(106,90,205);
+  font-size:15px;
+  color:white;
+  padding:10px;
+  border-radius:10px;
+  border: 2px solid rgb(106,90,205);
+  box-shadow: 5px 5px 5px rgb(72,61,139);
+  font-family:cursive;
+}
+.second:hover{
+  background-color: white; 
+  color: blue;
+}
+.second:active{
+  transform:translateY(15px)
+}
+.name_1{
+	text-align:center;
+	color:grey;
+	font-family: cursive;
+	padding-top:40px;
+}
+
+
+.name_2{
+	font-size: 40px;
+	font-family: cursive;
+	text-align: center;
+	color:white;
+}
+.name_3{
+	font-family: cursive;
+	font-size:35px;
+	text-align:right ;
+	color:white;
+}
+.name_4{
+	font-family: cursive;
+	font-size:30px;
+	text-align:left;
+	color: 	rgb(123,104,238);
+	font-weight: 900;
+}
+.block3{
+	border: 2px solid black;
+	border-radius: 5px;
+	background-image: url('../img/wallpaper.jpg');
+	
+	background-position: 50% 50%;
+}
+.block4{
+	border: 2px solid black;
+	border-radius: 5px;
+	background-image: url('../img/wallpaper2.jpg');
+	
+	background-position: 50% 50%;
+}
+.block5{
+	border: 2px solid black;
+	border-radius: 5px;
+	background-image: url('../img/wallpaper3.jpg');
+	
+	background-position: 50% 50%;
+}
+.name_5{
+	text-align: right;
+	color:white;
+}
+.block6{
+	border: 2px solid black;
+	border-radius: 5px;
+	background-image: url('../img/wallpaper4.jpg');
+}
+
+body{
+	background-image:url('../img/background.png');
+}
